@@ -28,7 +28,7 @@ print(head(AGREEMENT_DF))
 KAPPA_SCORES <- cohen.kappa(AGREEMENT_DF)
 print(KAPPA_SCORES)
 
-t2 <- Sys.time()
+# t2 <- Sys.time()
 print(t2 - t1)  
 rm(list = setdiff(ls(), lsf.str()))
 
